@@ -67,7 +67,8 @@ The primary goal is to **understand customer and sales behavior**, uncover patte
 
 ## 📑 Project Files
 
-- `EDA_Ecommerce_Sales.ipynb` — Main Notebook (full data analysis)
-- `Ecommerce_Sales_Prediction_Dataset.csv` — Dataset
-- `README.md` — Project overview and documentation (this file)
+- [Ecommerce_Sales_analysis.ipynb](assets/Ecommerce_Sales_analysis.ipynb) — Main Notebook
+- [Ecommerce_Sales_Prediction_Dataset.csv](assets/Ecommerce_Sales_Prediction_Dataset.csv) — Dataset
+- [README.md](README.md) — Project Overview and Documentation
+
 
