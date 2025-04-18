@@ -17,23 +17,133 @@ The primary goal is to **understand customer and sales behavior**, uncover patte
 
 ---
 
-## 📈 Exploratory Data Analysis (EDA) and Insights
+# 📈 Exploratory Data Analysis (EDA) and Insights
 
-| Chart | Insight |
-|:---|:---|
-| **Correlation Matrix** | Very weak or no correlation between Price, Discount, Marketing Spend, and Units Sold. |
-| **Sales Distribution by Product Category** | Electronics and Sports have slightly higher total sales, but overall sales are fairly balanced across categories. |
-| **Price Distribution** | Product prices are spread between $0 and $1000 with no major skewness. |
-| **Discount Distribution** | Discounts vary widely, with most between 20%–40%. |
-| **Sales by Customer Segment** | Occasional and Regular customers drive most of the sales compared to Premium customers. |
-| **Marketing Spend vs Units Sold** | No clear trend; higher marketing spend does not necessarily result in higher units sold. |
-| **Sales Trends Over Time** | Sales fluctuate significantly over time without strong seasonality patterns. |
-| **Sales Distribution by Product Category and Customer Segment** | Sales are fairly evenly spread across customer segments within each category. |
-| **Boxplot of Price by Product Category** | Wide range of prices across all product categories; no category is strictly expensive or cheap. |
-| **Pairplot of Numerical Features** | No strong linear relationships among numerical features. |
-| **Distribution of Marketing Spend by Customer Segment** | Marketing spend is similar across all customer segments. |
-| **Units Sold Over Time by Product Category** | Sales trends for all categories are volatile, with no single category dominating over time. |
-| **Discount Distribution by Product Category** | Toys and Fashion tend to offer slightly higher discounts compared to other categories. |
+---
+
+## 1. Correlation Matrix
+
+📊 **Insight:**  
+The correlation matrix shows very weak or no correlation between Price, Discount, Marketing Spend, and Units Sold.  
+Thus, feature-target linear relationships are extremely weak.
+
+![Correlation Matrix](assets/images/image1.png)
+
+---
+
+## 2. Sales Distribution by Product Category
+
+📊 **Insight:**  
+Electronics and Sports categories have slightly higher total sales, but overall sales are relatively balanced across different product categories.
+
+![Sales by Product Category](assets/images/image2.png)
+
+---
+
+## 3. Price Distribution
+
+📊 **Insight:**  
+Product prices are widely distributed between $0 and $1000, with no major skewness observed.  
+Multiple price ranges are popular, indicating varied pricing strategies.
+
+![Price Distribution](assets/images/image3.png)
+
+---
+
+## 4. Discount Distribution
+
+📊 **Insight:**  
+Discount rates are spread across 0%–50%.  
+Most discounts fall between 20%–40%, suggesting aggressive but controlled discounting strategies.
+
+![Discount Distribution](assets/images/image4.png)
+
+---
+
+## 5. Sales by Customer Segment
+
+📊 **Insight:**  
+Occasional and Regular customers drive most of the sales, with Premium customers contributing slightly less.
+
+![Sales by Customer Segment](assets/images/image5.png)
+
+---
+
+## 6. Marketing Spend vs Units Sold
+
+📊 **Insight:**  
+There is no clear trend between marketing spend and units sold.  
+Higher marketing spend does not guarantee a higher number of units sold.
+
+![Marketing Spend vs Units Sold](assets/images/image6.png)
+
+---
+
+## 7. Sales Trends Over Time
+
+📊 **Insight:**  
+Units sold fluctuate significantly over time without any strong seasonal pattern.  
+Sales spikes appear random rather than periodic.
+
+![Sales Trends Over Time](assets/images/image7.png)
+
+---
+
+## 8. Sales Distribution by Product Category and Customer Segment
+
+📊 **Insight:**  
+Sales are fairly evenly distributed among customer segments within each product category, though minor variations exist.
+
+![Sales Distribution by Product Category and Customer Segment](assets/images/image8.png)
+
+---
+
+## 9. Boxplot of Price by Product Category
+
+📊 **Insight:**  
+All product categories exhibit a wide range of pricing, with no single category consistently high-end or low-end.
+
+![Boxplot of Price by Product Category](assets/images/image9.png)
+
+---
+
+## 10. Pairplot of Numerical Features
+
+📊 **Insight:**  
+No strong linear relationships between numerical features are visible.  
+Scatter plots confirm wide data dispersion.
+
+![Pairplot of Numerical Features](assets/images/image10.png)
+
+---
+
+## 11. Distribution of Marketing Spend by Customer Segment
+
+📊 **Insight:**  
+Marketing spend levels are quite similar across all customer segments, suggesting no segment-targeted marketing focus.
+
+![Distribution of Marketing Spend by Customer Segment](assets/images/image11.png)
+
+---
+
+## 12. Units Sold Over Time by Product Category
+
+📊 **Insight:**  
+Sales trends are volatile across product categories with no category consistently dominating over time.
+
+![Units Sold Over Time by Product Category](assets/images/image12.png)
+
+---
+
+## 13. Discount Distribution by Product Category
+
+📊 **Insight:**  
+Toys and Fashion categories offer slightly higher discounts on average compared to other product categories.
+
+![Discount Distribution by Product Category](assets/images/image13.png)
+
+---
+
 
 ---
 
